@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #23252A;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #2C2F3A;
+    color: #ECECEC;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(156, 114, 255);
+    font-size: 2em;
+    margin-right: 0.5em;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    transition: color .2s;
+}
+
+.logo:hover {
+    color: rgb(126, 96, 198);
+}
+
+.navbar {
+
+}
+
+.navlink {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.3em;
+    padding: 0.4em;
+    transition: color .2s;
+}
+
+.navlink.active {
+    color: rgb(183, 183, 183);
+}
+
+
+
+.navlink:hover {
+    color: #A8323E;
+}

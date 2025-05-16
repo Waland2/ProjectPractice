@@ -1,0 +1,54 @@
+.main-content {
+    color: #ECECEC;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.journal-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.post {
+    background-color: #2C2F3A;
+    border: 2px solid rgb(126, 96, 198);
+    border-radius: 16px;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    width: 100%;
+    max-width: 800px;
+}
+
+.post-title {
+    font-size: 1.6em;
+    color: rgb(156, 114, 255);
+    margin-bottom: 1em;
+}
+
+.post-media {
+    margin-bottom: 1em;
+}
+
+.post-media img,
+.post-media video {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.post-content {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #DADADA;
+    margin-bottom: 0.8em;
+    text-align: justify;
+}
+
+.post-date {
+    font-size: 0.9em;
+    color: #999;
+    text-align: right;
+}

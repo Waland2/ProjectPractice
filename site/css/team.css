@@ -1,0 +1,43 @@
+.main-content {
+    color: #ECECEC;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5em;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.team-member {
+    background-color: #2C2F3A;
+    border: 2px solid rgb(126, 96, 198);
+    border-radius: 16px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.member-name {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(156, 114, 255);
+}
+
+.member-role {
+    font-size: 1em;
+    color: #DADADA;
+}

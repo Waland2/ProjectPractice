@@ -1,0 +1,57 @@
+.main-content {
+    color: #ECECEC;
+    padding: 2em;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5em;
+}
+
+.hero-text h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.info-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 40%;
+    text-align: justify;
+    border: 3px solid rgb(126, 96, 198);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.ib-header {
+    font-size: 24px;
+    margin: 5px 0 5px 0;
+}
+
+.ib-content {
+
+}

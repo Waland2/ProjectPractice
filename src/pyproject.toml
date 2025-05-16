@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tinyjsondb"
+version = "0.1.2"
+description = "Embedded JSON-based ORM-like database"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["portalocker>=2.7"]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["tinyjsondb"]
